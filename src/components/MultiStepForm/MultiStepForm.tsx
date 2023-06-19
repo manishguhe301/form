@@ -177,8 +177,6 @@ const MultiStepForm = ({ onLogout }) => {
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
-        console.log(formValues);
         setModalOpen(true);
         setSubmitting(false);
       })
